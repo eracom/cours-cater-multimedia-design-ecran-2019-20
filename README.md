@@ -1,2 +1,3 @@
-# cours-cater-multimedia-design-ecran-2019-20
-supports de cours…
+# Supports de cours web design / design écran / multimédia 2019-20
+
+Adrien Cater
