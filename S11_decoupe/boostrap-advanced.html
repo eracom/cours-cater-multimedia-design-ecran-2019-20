@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<style media="all">
+
+		body { 
+			font-family: 'IBM Plex Sans', sans-serif;
+			background-color: #369;
+		}
+		
+		header { 
+			background-color: #135; 
+			color: #FFF; 
+		}
+
+		#Logo { text-align: center; font-size: 4em; font-weight: 100; }
+
+		.wideBkg { 
+			background-color: #246; 
+		}
+		nav a {
+			padding-top: 1rem; 
+			padding-bottom: 1rem; 
+			color: #BBB;
+			font-weight: 900;
+			font-size: 1.25rem;
+		}
+		nav a:hover { background: rgba(0,0,0,0.25); color: #FFF; text-decoration: none; }
+		
+		main { 
+			background-color: #FFF; 
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+		
+		.row .row { 
+			margin-bottom: 2rem; 
+		}
+
+		[class*="col"] { outline: 0px solid #9CF; }
+		
+		img { width: 100%; }
+
+	</style>
+	
+</head>
+<body>
+	
+
+	<header class="containter-fluid">
+		<div class="row">
+			<div class="col">
+				<h1 id="Logo">Hello!</h1>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-md-1"> 1</div>
+			<div class="col-md-1"> 2</div>
+			<div class="col-md-1"> 3</div>
+			<div class="col-md-1"> 4</div>
+			<div class="col-md-1"> 5</div>
+			<div class="col-md-1"> 6</div>
+			<div class="col-md-1"> 7</div>
+			<div class="col-md-1"> 8</div>
+			<div class="col-md-1"> 9</div>
+			<div class="col-md-1">10</div>
+			<div class="col-md-1">11</div>
+			<div class="col-md-1">12</div>
+		</div> -->
+	</header>
+
+	<div class="wideBkg">
+		<div class="container">
+			<nav class="row">
+				<a href="#" class="col-md-2">Kittens  </a>
+				<a href="#" class="col-md-2">Piglets  </a>
+				<a href="#" class="col-md-2">Wombats  </a>
+				<a href="#" class="col-md-2">Lemurs   </a>
+				<a href="#" class="col-md-2">Hedgehogs</a>
+				<a href="#" class="col-md-2">Otters   </a>
+			</nav>
+			<!-- <nav class="row">
+				<a href="#" class="col">alpha  </a>
+				<a href="#" class="col">bravo  </a>
+				<a href="#" class="col">charlie</a>
+				<a href="#" class="col">delta  </a>
+				<a href="#" class="col">echo   </a>
+			</nav>
+			<nav class="row justify-content-around">
+				<a href="#" class="col-md-auto">foxtrot golf hotel indigo</a>
+				<a href="#" class="col-md-auto">julliet</a>
+				<a href="#" class="col-md-auto">kilo</a>
+				<a href="#" class="col-md-auto">mike</a>
+			</nav> -->
+		</div>
+	</div>
+
+	<main class="container">
+
+		<!-- <div class="row">
+			<div class="col-md-1"> 1</div>
+			<div class="col-md-1"> 2</div>
+			<div class="col-md-1"> 3</div>
+			<div class="col-md-1"> 4</div>
+			<div class="col-md-1"> 5</div>
+			<div class="col-md-1"> 6</div>
+			<div class="col-md-1"> 7</div>
+			<div class="col-md-1"> 8</div>
+			<div class="col-md-1"> 9</div>
+			<div class="col-md-1">10</div>
+			<div class="col-md-1">11</div>
+			<div class="col-md-1">12</div>
+		</div> -->
+	
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6"><img src="https://picsum.photos/200?random=1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+					<div class="col-md-6"><img src="https://picsum.photos/200?random=2">Repudiandae vero a tempora. </div>
+				</div><!-- .row .row -->
+				<div class="row">
+					<div class="col-md-6"><img src="https://picsum.photos/200?random=3">Corrupti necessitatibus eum praesentium reprehenderit facere quasi laborum dolores</div>
+					<div class="col-md-6"><img src="https://picsum.photos/200?random=4">Laudantium eos repellendus esse cum aperiam ullam. Delectus, ipsa.</div>
+				</div><!-- .row .row -->
+			</div>
+			<div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Repudiandae vero a tempora. Corrupti necessitatibus eum praesentium reprehenderit facere quasi laborum dolores, laudantium eos repellendus esse cum aperiam ullam. Delectus, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div class="col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero a tempora. Corrupti necessitatibus eum praesentium reprehenderit facere quasi laborum dolores, laudantium eos repellendus esse cum aperiam ullam. Delectus, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div><!-- .row -->
+
+	</main>
+	
+</body>
+</html>
+
+
+<div class="row">
+
+</div><!-- .row -->

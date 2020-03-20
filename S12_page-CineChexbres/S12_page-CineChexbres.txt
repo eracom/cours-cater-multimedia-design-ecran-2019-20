@@ -1,0 +1,24 @@
+Cours Multimedia Design Écran Cater
+
+Projet Cinéma de Chexbres:
+
+Objectif pour la semaine 13: 
+
+- Créer la page d’accueil ‘index.html’ dans votre dossier de site ‘cinechexbres’.
+
+- Mettre en place le _contenu_ de la page avec une disposition / mise en page avec Bootstrap.
+
+Pour mettre les images (film stills, affiches), ajouter les fichiers .jpg dans le dossier du site (le même dossier que index.html) et poser des éléments <img src="chaton.jpg"> ou vous les souhaitez les afficher. Pour simplifier la vie, ajouter ceci dans le <head> du document:
+
+	<style>
+		img { width: 100%; }
+	</style>
+
+
+Soyez prêt avec cette page de contenu pour la semaine prochaine, par la suite on travaillera sur la présentation visuelle (couleurs, typos, etc.) avec CSS.
+
+Je vous tiendrai informé pour les modalités précises de rendu (Github ou Google Classroom) par la suite quand on voit plus claire côté école.
+
+Les éléments précisés à rendre risquent de changer avec les contraintes de notre isolation, mais ça suit globalement les phases générales du projet: analyse, esquisses, contenu HTML, design CSS, projet final.
+
+Je reste à votre disposition pour tout question, aide, renseignement, debugging, etc. par mail, téléphone, whatsapp, discord, zoom, skype, danse interprétative, etc.
