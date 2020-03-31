@@ -1,0 +1,73 @@
+/*	-	-	-	-	Style Générale	-	-	-	-	*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+
+body { font-family: 'IBM Plex Sans', sans-serif; }
+
+#Logo { color: #05A; }
+
+
+
+
+/*	-	-	-	-	Design du Site	-	-	-	-	*/
+
+img { width: 100%; }
+
+
+
+
+/* Affichage des films */
+
+.film {
+	margin-bottom: 2rem;
+}
+
+.film h2 {
+	color: #05A;
+}
+
+.film h4 {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1.125rem;
+}
+
+
+
+
+/* Position de l’etiquette sur l’image du film */
+.affiche {
+	position: relative;
+}
+.affiche h3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Design de l’etiquette */
+.affiche h3 {
+	padding: 0.5em;
+	background-color: #05A;
+	color: #FFF;
+	font-weight: 900;
+}
+
+
+
+
+/* Navigation */
+nav a {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #05A;
+	text-decoration: none;
+
+	padding: 0.5em;
+}
+
+nav a:hover {
+	color: #FFF;
+	background-color: #05A;
+	text-decoration: none;
+}
